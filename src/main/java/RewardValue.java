@@ -3,7 +3,7 @@ import java.math.BigDecimal;
 public class RewardValue {
     private double cashValue;
     private int miles;
-    private final double MILES_TO_CASH = 0.0035;
+    private static final double MILES_TO_CASH = 0.0035;
 
     public RewardValue(double cash) {
         this.cashValue = cash;
